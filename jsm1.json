@@ -177,6 +177,8 @@
 			}
     },
    {"key":"YunPan1","name":"阿狸┃YP","type":3,"api":"csp_YunPan","timeout":60, "ext":"./lib/tokenm.json$$$null$$$1"},	
+   
+   {"key":"Wo4k","name":"磁力┃WO","type":3,"api":"csp_Wo4k","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.wo4k.com/$$$proxy$$$1$$$./lib/wogg.json"},
  
     {
       "key": "新6V",
@@ -249,6 +251,7 @@
       "timeout": 60
     },
     {"key":"Bt0","name":"磁力┃BT","type":3,"api":"csp_Bt0","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"null$$$null$$$1"},
+    { "key": "Ikanbot", "name": "蓝光┃IK", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.ikanbot.com$$$proxy"},
     {
 			"key": "天天",
 			"name": "蓝光┃TT",
@@ -421,7 +424,7 @@
 				"ratio": 1.1
 			}
 	},
-	{"key":"YunPan","name":"云盘┃🍭","type":3,"api":"csp_YunPan","timeout":60, "ext":"./lib/tokenm.json$$$null$$$proxy$$$1"},
+	{"key":"YunPanOne","name":"云盘┃🍭","type":3,"api":"csp_YunPanOne","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$null$$$proxy$$$1"},
 	{
       "key": "PanSearch",
       "name": "盘寻┃🍭",
@@ -600,7 +603,7 @@
     },
     {
       "key": "cc4",
-      "name": "04.12维护更新🍁🍀",
+      "name": "04.18维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
