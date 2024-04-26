@@ -252,7 +252,7 @@
     },
     {"key":"Bt0","name":"磁力┃BT","type":3,"api":"csp_Bt0","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"null$$$null$$$1"},
    
-    {"key":"Ppxzy","name":"夸克┃PP","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://ppxzy.net$$$proxy$$$1"}，  
+    {"key":"Ppxzy","name":"夸克┃PP","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://ppxzy.net$$$proxy$$$1"},
     {
       "key": "校长影视",
       "name": "夸克┃XZ",
@@ -382,15 +382,34 @@
 				"ratio": 1.1
 			}
 	},	
-   {
+
+    {
       "key": "短剧",
-      "name": "🌸短剧屋",
+      "name": "短剧┃ST",
       "type": 3,
-      "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/上头短剧.js",
+      "api": "csp_Djuu",
+      "jar": "./jar/fan.txt",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 1
+    },  
+    {
+      "key": "Wexduanjuvop",
+      "name": "短剧┃MB",
+      "type": 3,
+      "api": "csp_Wexduanjuvop",
+      "jar": "./jar/wex.txt",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexduanjuvmp",
+      "name": "短剧┃jp",
+      "type": 3,
+      "api": "csp_Wexduanjuvmp",
+      "jar": "./jar/wex.txt",
+      "searchable": 1,
+      "changeable": 1
     },
     {"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"ext":"./js/alistjar.json"},
     
@@ -988,23 +1007,43 @@
         {"name":"QQ频道","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","imgo","rx","ltnb","bilibili","1905","xigua"]}},
         {"name": "『乐享汇fans』","type": 3,"url": "Web"},
         {"name": "『乐享生活fans』","type": 0,"url": "https://jx.jsonplayer.com/player/?url="},
-        {
+	 {
       "name": "解析",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url="
+    },
+    {
+      "name": "解析1",
+      "type": 1,
+      "url": "http://119.91.123.253:2345/Api/yun.php?url="
+    },
+    {
+      "name": "解析2",
+      "type": 1,
+      "url": "http://122.228.84.103:7777/api/?key=qhBtN1ciPmdvPV83tX&url="
+    },
+    {
+      "name": "解析3",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
+    },
+    {
+      "name": "解析4",
       "type": 1,
       "url": "http://json.84jia.com/home/api?type=ys&uid=11154896&key=cefgiksvwyCGINV047&url="
         },
         {
-      "name": "解析1",
+      "name": "解析5",
       "type": 1,
       "url": "http://119.91.123.253:2345/Api/yun.php?url="
         },
         {
-      "name": "解析2",
+      "name": "解析6",
       "type": 1,
       "url": "http://122.228.84.103:7777/api/?key=qhBtN1ciPmdvPV83tX&url="
         },
        {
-      "name": "解析3",
+      "name": "解析7",
       "type": 1,
       "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
         },
