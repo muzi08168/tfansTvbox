@@ -382,15 +382,34 @@
 				"ratio": 1.1
 			}
 	},	
-   {
+
+    {
       "key": "短剧",
-      "name": "🌸短剧屋",
+      "name": "短剧┃ST",
       "type": 3,
-      "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/上头短剧.js",
+      "api": "csp_Djuu",
+      "jar": "./jar/fan.txt",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 1
+    },  
+    {
+      "key": "Wexduanjuvop",
+      "name": "短剧┃MB",
+      "type": 3,
+      "api": "csp_Wexduanjuvop",
+      "jar": "./jar/wex.txt",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexduanjuvmp",
+      "name": "短剧┃jp",
+      "type": 3,
+      "api": "csp_Wexduanjuvmp",
+      "jar": "./jar/wex.txt",
+      "searchable": 1,
+      "changeable": 1
     },
     {"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"ext":"./js/alistjar.json"},
     
