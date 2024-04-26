@@ -988,23 +988,43 @@
         {"name":"QQ频道","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","imgo","rx","ltnb","bilibili","1905","xigua"]}},
         {"name": "『乐享汇fans』","type": 3,"url": "Web"},
         {"name": "『乐享生活fans』","type": 0,"url": "https://jx.jsonplayer.com/player/?url="},
-        {
+	 {
       "name": "解析",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url="
+    },
+    {
+      "name": "解析1",
+      "type": 1,
+      "url": "http://119.91.123.253:2345/Api/yun.php?url="
+    },
+    {
+      "name": "解析2",
+      "type": 1,
+      "url": "http://122.228.84.103:7777/api/?key=qhBtN1ciPmdvPV83tX&url="
+    },
+    {
+      "name": "解析3",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
+    },
+    {
+      "name": "解析4",
       "type": 1,
       "url": "http://json.84jia.com/home/api?type=ys&uid=11154896&key=cefgiksvwyCGINV047&url="
         },
         {
-      "name": "解析1",
+      "name": "解析5",
       "type": 1,
       "url": "http://119.91.123.253:2345/Api/yun.php?url="
         },
         {
-      "name": "解析2",
+      "name": "解析6",
       "type": 1,
       "url": "http://122.228.84.103:7777/api/?key=qhBtN1ciPmdvPV83tX&url="
         },
        {
-      "name": "解析3",
+      "name": "解析7",
       "type": 1,
       "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
         },
