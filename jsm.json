@@ -340,10 +340,34 @@
       "searchable": 1,
       "quickSearch": 1
     },  
-    {"key":"drpy_js_奇珍异兽","name":"爱爱┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/奇珍异兽.js"},   
-    {"key":"drpy_js_优酷","name":"优优┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/优酷.js"},
-    {"key":"drpy_js_腾云驾雾","name":"腾腾┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/腾云驾雾.js"},
-    {"key":"drpy_js_百忙无果","name":"芒芒┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/百忙无果.js"},
+    {
+      "key": "drpy_js_奇珍异兽",
+      "name": "爱爱┃(官)",
+      "type": 3,
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/奇珍异兽.js"
+    },
+    {
+      "key": "drpy_js_优酷",
+      "name": "优优┃(官)",
+      "type": 3,
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/优酷.js"
+    },
+    {
+      "key": "drpy_js_腾云驾雾",
+      "name": "腾腾┃(官)",
+      "type": 3,
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/腾云驾雾.js"
+    },
+    {
+      "key": "drpy_js_百忙无果",
+      "name": "芒芒┃(官)",
+      "type": 3,
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/百忙无果.js"
+    },
     {
       "key": "sohu",
       "name": "搜搜┃(官)",
@@ -625,7 +649,7 @@
     },
     {
       "key": "cc4",
-      "name": "04.26维护更新🍁🍀",
+      "name": "04.29维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
@@ -638,23 +662,15 @@
       "name": "live.m3u",
       "type": 0,
       "playerType": 1,
-      "url": "https://ghproxy.net/raw.githubusercontent.com/lxhfans/zby/main/cy.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/wex.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
      {
-      "name": "live.m3u1",
-      "type": 0,
-      "playerType": 1,
-      "url": "https://ghproxy.net/raw.githubusercontent.com/lxhfans/zby/main/qg.m3u",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-   {
       "name": "live.m3u2",
       "type": 0,
       "playerType": 1,
-      "url": "https://ghproxy.net/raw.githubusercontent.com/lxhfans/zby/main/live.m3u",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/cy.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -662,7 +678,7 @@
       "name": "live.m3u3",
       "type": 0,
       "playerType": 1,
-      "url": "https://ghproxy.net/raw.githubusercontent.com/lxhfans/zby/main/ty.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/ty.txt",
       "ua": "okhttp/3.12.13",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -670,7 +686,7 @@
     {
       "name": "live.m3u4",
       "type": 0,
-      "url": "https://ghproxy.net/raw.githubusercontent.com/lxhfans/zby/main/wy.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/wy.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -679,7 +695,7 @@
     {
       "name": "live.m3u5",
       "type": 0,
-      "url": "https://ghproxy.net/raw.githubusercontent.com/lxhfans/zby/main/tvkj.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/tvkj.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -688,7 +704,7 @@
     {
       "name": "live.m3u6",
       "type": 0,
-      "url": "https://ghproxy.net/raw.githubusercontent.com/lxhfans/zby/main/tvkj1.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/tvkj1.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -697,7 +713,7 @@
     {
       "name": "live.lvcha",
       "type": 0,
-      "url": "https://ghproxy.net/raw.githubusercontent.com/lxhfans/lvcha/main/ywb.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/lvcha/main/ywb.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -707,7 +723,7 @@
       "name": "live.lvcha1",
       "type": 0,
       "playerType": 1,
-      "url": "https://ghproxy.net/raw.githubusercontent.com/lxhfans2024/lvcha/main/adult.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans2024/lvcha/main/adult.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
@@ -716,7 +732,7 @@
       "name": "live.lvcha2",
       "type": 1,
       "playerType": 1,
-      "url": "https://ghproxy.net/raw.githubusercontent.com/lxhfans/lvcha/main/ty.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/lvcha/main/ty.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
