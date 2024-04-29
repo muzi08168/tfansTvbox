@@ -290,7 +290,6 @@
     {"key":"Xinshijue","name":"夸克┃SJ","type":3,"api":"csp_Xinshijue","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./lib/wogg.json"},
     {"key":"Moli","name":"夸克┃ML","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hdmoli.pro/$$$proxy$$$1$$$./lib/moli.json"},
 
-    { "key": "Ikanbot", "name": "蓝光┃IK", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.ikanbot.com$$$proxy"},
     {
 			"key": "天天",
 			"name": "蓝光┃TT",
@@ -428,6 +427,8 @@
 		{"key": "XBPQ_麻衣影院","name":"蓝光┃MY","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar": "./lib/XBPQ.jar",
 			"ext": {"分类url":"https://www.huanyuxing.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html","分类":"电影$id-a#电视剧$id-b#动漫$id-c#综艺$id-d"}
 		},
+    { "key": "Ikanbot", "name": "蓝光┃IK", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.ikanbot.com$$$proxy"},
+    
     {
       "key": "sohu",
       "name": "搜搜┃(官)",
