@@ -178,6 +178,9 @@
     },
    {"key":"YunPan1","name":"阿狸┃YP","type":3,"api":"csp_YunPan","timeout":60, "ext":"./lib/tokenm.json$$$null$$$1"},	
    
+    {"key":"drpy_js_磁力熊","name":"磁力┃SY","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiongp.js","playerType":"1", "searchable":0, "quickSearch":0, "changeable":1,
+			"indexs":1
+		},
    {"key":"Wo4k","name":"磁力┃WO","type":3,"api":"csp_Wo4k","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.wo4k.com/$$$proxy$$$1$$$./lib/wogg.json"},
     {
       "key": "新6V",
@@ -251,12 +254,9 @@
     },
     {"key":"Bt0","name":"磁力┃BT","type":3,"api":"csp_Bt0","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"null$$$null$$$1"},
     {"key":"Gaoqing","name":"磁力┃GQ","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://gaoqing.la/$$$proxy$$$1"},
-    {"key":"drpy_js_磁力熊","name":"磁力熊[js]|索引","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiongp.js","playerType":"1", "searchable":0, "quickSearch":0, "changeable":1,
-			"indexs":1
-		},
     {
 			"key": "Bdys_spider",
-			"name": "哔滴┃磁力",
+			"name": "磁力┃BD",
 			"api": "csp_Bdys01",
 			"type": 3,
 			"filterable": 1,
@@ -487,34 +487,7 @@
 			}
 	},	
 
-    {
-      "key": "短剧",
-      "name": "短剧┃ST",
-      "type": 3,
-      "api": "csp_Djuu",
-      "jar": "./jar/fan.txt",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },  
-    {
-      "key": "Wexduanjuvop",
-      "name": "短剧┃MB",
-      "type": 3,
-      "api": "csp_Wexduanjuvop",
-      "jar": "./jar/wex.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Wexduanjuvmp",
-      "name": "短剧┃JP",
-      "type": 3,
-      "api": "csp_Wexduanjuvmp",
-      "jar": "./jar/wex.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
+   
     {"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"ext":"./js/alistjar.json"},
     
     {
