@@ -178,6 +178,9 @@
     },
    {"key":"YunPan1","name":"阿狸┃YP","type":3,"api":"csp_YunPan","timeout":60, "ext":"./lib/tokenm.json$$$null$$$1"},	
    
+    {"key":"drpy_js_磁力熊","name":"磁力┃SY","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiongp.js","playerType":"1", "searchable":0, "quickSearch":0, "changeable":1,
+			"indexs":1
+		},
    {"key":"Wo4k","name":"磁力┃WO","type":3,"api":"csp_Wo4k","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.wo4k.com/$$$proxy$$$1$$$./lib/wogg.json"},
     {
       "key": "新6V",
@@ -251,7 +254,24 @@
     },
     {"key":"Bt0","name":"磁力┃BT","type":3,"api":"csp_Bt0","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"null$$$null$$$1"},
     {"key":"Gaoqing","name":"磁力┃GQ","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://gaoqing.la/$$$proxy$$$1"},
+    {
+			"key": "Bdys_spider",
+			"name": "磁力┃BD",
+			"api": "csp_Bdys01",
+			"type": 3,
+			"filterable": 1,
+			"searchable":0,
+			"quickSearch": 1,
+			"searchable": 1,
+			"ext": "https://www.bdys10.com/$$$null$$$1"
+		},
     
+    	{"key":"QuarkShare","name":"夸克┃FX","type":3,"api":"csp_QuarkShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/quarkshare.txt",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+	},
     {"key":"Ppxzy","name":"夸克┃PP","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://ppxzy.net$$$proxy$$$1"},
     {
       "key": "校长影视",
@@ -270,7 +290,6 @@
     {"key":"Xinshijue","name":"夸克┃SJ","type":3,"api":"csp_Xinshijue","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./lib/wogg.json"},
     {"key":"Moli","name":"夸克┃ML","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.hdmoli.pro/$$$proxy$$$1$$$./lib/moli.json"},
 
-    { "key": "Ikanbot", "name": "蓝光┃IK", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.ikanbot.com$$$proxy"},
     {
 			"key": "天天",
 			"name": "蓝光┃TT",
@@ -339,7 +358,88 @@
       ],
       "searchable": 1,
       "quickSearch": 1
+    },
+    {"key":"XBPQ_文才","name":"蓝光┃WC","type":3,"api":"csp_XBPQ", "jar":"./lib/XBPQ.jar",
+			"ext":{"分类": "国产剧&短剧&喜剧片&爱情片&恐怖片&战争片&科幻片&动作片&综艺&欧美剧&港台剧&日韩剧",
+				"分类值": "14&42&22&26&36&25&30&23&69&15&16&62",
+				"分类url": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg}",
+				"数组二次截取": "list\":[&&]",
+				"数组": "{&&}[不包含:]",
+				"图片": "vod_pic\":\"&&\"",
+				"标题": "vod_name\":\"&&\"",
+				"副标题": "+vod_remarks\":\"&&\"",
+				"链接": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,",
+				"搜索url": "https://api.zeqaht.com/api.php/provide/vod?ac=detail&wd={wd}",
+				"搜索模式": "1",
+				"搜索二次截取": "list\":[&&]",
+				"搜索数组": "{&&}[不包含:]",
+				"搜索图片": "vod_pic\"*\"&&\"",
+				"搜索标题": "vod_name\"*\"&&\"",
+				"搜索副标题": "type_name\":\"&&\"",
+				"搜索链接": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,",
+				"影片类型": "vod_class\"*\"&&\"",
+				"导演": "vod_director\"*\"&&\"",
+				"主演": "vod_actor\"*\"&&\"",
+				"简介": "vod_content\"*\"&&\"",
+				"线路二次截取": "\"list\":[&&]",
+				"线路数组": "\"vod_play_from\":&&,",
+				"线路标题": "\"&&\"",
+				"播放数组": "vod_play_url\":&&,[替换:\">>链表题#$>>题链#\\#>>链表表题]",
+				"播放二次截取": "",
+				"播放列表": "表&&表",
+				"播放标题": "题&&题",
+				"播放链接": "链&&链",
+				"嗅探词": ".m3u8",
+				"播放请求头":"User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#Origin$www.whbax.cn#Referer$www.whbax.cn#Cookie$PHPSESSID=7da46a353cf8bac46b4f8226f06042ad",
+				"免嗅": "0",
+				"页面代理":"proxy"
+			}
+		},
+		{"key":"XBPQ_BaiPiao","name":"蓝光┃BP","type":3,"api":"csp_XBPQ", "jar":"./lib/XBPQ.jar",
+			"ext": {
+				"地区":"[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
+				"分类": "电影$1#电视剧$2#动漫$3#短剧$4#综艺$5",
+				"强制嗅探词": "/csbp/e.php",
+				"分类url": "https://www.baipiaoys.com:9092/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
+			}
+		},
+		{
+			"key":"XBPQ_电影先生",
+			"name": "蓝光┃DY",
+			"jar": "./lib/XBPQ.jar",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"ext": {
+				"分类url": "https://dianyi.ng/pianku-{cateId}-{area}-------{catePg}---{year}.html",
+				"简介": "class=\"video-info-item video-info-content vod_content\">&&</span>",
+				"搜索url": "https://dianyi.ng/search--------------.html?wd={wd}",
+				"搜索数组": "<div class=\"module-item-pic\">&&</div>",
+				"图片": "src=\"&&\"",
+				"搜索标题": "title=\"&&\"",
+				"搜索副标题": ">&&</a>",
+				"线路数组": "data-dropdown-value=&&</div>",
+				"线路标题": "<span>&&</small>[替换:<span></small>共]+集",
+				"播放数组": "<div class=\"scroll-content\">&&</div>",
+				"播放标题": "<span>&&</span>",
+				"分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi"
+			}
+		},
+		{"key": "XBPQ_麻衣影院","name":"蓝光┃MY","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar": "./lib/XBPQ.jar",
+			"ext": {"分类url":"https://www.huanyuxing.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html","分类":"电影$id-a#电视剧$id-b#动漫$id-c#综艺$id-d"}
+		},
+    { "key": "Ikanbot", "name": "蓝光┃IK", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.ikanbot.com$$$proxy"},
+    
+    {
+      "key": "sohu",
+      "name": "搜搜┃(官)",
+      "type": 1,
+      "api": "http://tvbox-1-g5221611.deta.app/vod/sohu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playUrl": "json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="
     },  
+    {"key":"drpy_js_菜狗","name":"狗狗┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/菜狗.js"},
+    {"key":"drpy_js_360影视","name":"360┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/360影视.js"},  
     {
       "key": "drpy_js_奇珍异兽",
       "name": "爱爱┃(官)",
@@ -369,17 +469,6 @@
       "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/百忙无果.js"
     },
     {
-      "key": "sohu",
-      "name": "搜搜┃(官)",
-      "type": 1,
-      "api": "http://tvbox-1-g5221611.deta.app/vod/sohu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playUrl": "json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="
-    },  
-    {"key":"drpy_js_菜狗","name":"狗狗┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/菜狗.js"},
-    {"key":"drpy_js_360影视","name":"360┃(官)","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xyq/360影视.js"},
-    {
       "key": "bili",
       "name": "B站┃(官)",
       "type": 3,
@@ -392,12 +481,6 @@
         "cookie": ""
       }
     },
-	{"key":"QuarkShare","name":"分享┃KK","type":3,"api":"csp_QuarkShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/quarkshare.txt",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-	},
 	{"key":"ThunderShare","name":"分享┃XL","type":3,"api":"csp_ThunderShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/thundershare.txt",
 			"style": {
 				"type": "list",
@@ -405,34 +488,15 @@
 			}
 	},	
 
-    {
-      "key": "短剧",
-      "name": "短剧┃ST",
-      "type": 3,
-      "api": "csp_Djuu",
-      "jar": "./jar/fan.txt",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },  
-    {
-      "key": "Wexduanjuvop",
-      "name": "短剧┃MB",
-      "type": 3,
-      "api": "csp_Wexduanjuvop",
-      "jar": "./jar/wex.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Wexduanjuvmp",
-      "name": "短剧┃JP",
-      "type": 3,
-      "api": "csp_Wexduanjuvmp",
-      "jar": "./jar/wex.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
+   {
+			"key": "短剧",
+			"name": "🌸短剧",
+			"type": 3,
+			"api": "csp_Duanju",
+			"searchable": 0,
+			"changeable": 1,
+			"ext":"https://www.duanjutv.icu"
+		},
     {"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"ext":"./js/alistjar.json"},
     
     {
