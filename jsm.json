@@ -307,14 +307,17 @@
 			"timeout":60
 		},
     {
-			"key": "NanGua",
-			"name": "蓝光┃NG",
-			"type": 3,
-			"api": "csp_NanGua",
-			"searchable": 1,
-			"changeable": 1,
-			"ext": "null$$$1"
-		},
+      "key": "南瓜",
+      "name": "蓝光┃NG",
+      "type": 3,
+      "api": "csp_NanGua",
+      "jar": "./jar/fan.txt",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
     {
       "key": "索尼资源",
       "name": "蓝光┃SN",
