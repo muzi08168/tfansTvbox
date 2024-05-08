@@ -828,7 +828,7 @@
       "name": "live.m3u",
       "type": 0,
       "playerType": 1,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/wex.txt",
+      "url": "https://raw.githubusercontent.com/lxhfans/zby/main/ty.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -836,7 +836,7 @@
       "name": "live.m3u2",
       "type": 0,
       "playerType": 1,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/cy.txt",
+      "url": "https://raw.githubusercontent.com/lxhfans/zby/main/cy.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -844,7 +844,7 @@
       "name": "live.m3u3",
       "type": 0,
       "playerType": 1,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/ty.txt",
+      "url": "https://raw.githubusercontent.com/lxhfans/zby/main/wex.txt",
       "ua": "okhttp/3.12.13",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -852,7 +852,7 @@
     {
       "name": "live.m3u4",
       "type": 0,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/wy.txt",
+      "url": "https://raw.githubusercontent.com/lxhfans/zby/main/wy.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -861,7 +861,7 @@
     {
       "name": "live.m3u5",
       "type": 0,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/tvkj.txt",
+      "url": "https://raw.githubusercontent.com/lxhfans/zby/main/tvkj.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -870,7 +870,7 @@
     {
       "name": "live.m3u6",
       "type": 0,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/tvkj1.txt",
+      "url": "https://raw.githubusercontent.com/lxhfans/zby/main/tvkj1.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -879,26 +879,44 @@
     {
       "name": "live.lvcha",
       "type": 0,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/lvcha/main/ywb.txt",
+      "url": "https://raw.githubusercontent.com/lxhfans/lvcha/main/tv.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+     {
+      "name": "live.lvcha1",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/lxhfans/lvcha/main/live.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+     {
+      "name": "live.lvcha2",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/lxhfans/lvcha/main/ywb.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "live.lvcha1",
+      "name": "live.lvcha3",
       "type": 0,
       "playerType": 1,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans2024/lvcha/main/adult.txt",
+      "url": "https://raw.githubusercontent.com/lxhfans/lvcha/main/ty.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
     },
     {
-      "name": "live.lvcha2",
+      "name": "live.lvcha4",
       "type": 1,
       "playerType": 1,
-      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/lvcha/main/ty.txt",
+      "url": "https://raw.githubusercontent.com/lxhfans/lvcha/main/a.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
