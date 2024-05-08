@@ -471,15 +471,6 @@
 			"ext":"proxy"
 		},
 		{
-			"key": "獨播",
-			"name": "蓝光┃DB",
-			"type": 3,
-			"api": "csp_XPathMacFilter",
-			"searchable": 1,
-			"changeable": 0,
-			"ext": "./lib/duboku.json$$$proxy"
-		},
-		{
 			"key": "haiwaikan",
 			"name": "蓝光┃HW",
 			"type": 1,
@@ -521,6 +512,16 @@
 				"纪录片",
 				"经典片"
 			]
+		},
+    { 
+			"key": "泥巴", 
+			"name": "蓝光┃NB", 
+			"type": 3, 
+			"api": "csp_NiNi", 
+			"searchable": 1, 
+			"filterable": 1, 
+			"changeable": 0, 
+			"ext":"0$$$proxy" 
 		},
     
     {
