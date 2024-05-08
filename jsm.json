@@ -297,23 +297,24 @@
 			"ext": "http://op.ysdqjs.cn$$$null$$$1"
     },  
     {
-      "key": "賤賤",
-      "name": "蓝光┃JP",
-      "type": 3,
-      "api": "csp_WexJianpian",
-      "jar": "./jar/wex.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
+			"key": "賤賤",
+			"name": "蓝光┃JP",
+			"type": 3,
+			"api": "csp_Jianpian",
+			"searchable": 1,
+			"changeable": 1,
+			"ext": "./lib/jianpian.json$$$1",
+			"timeout":60
+		},
     {
-      "key": "南瓜",
-      "name": "蓝光┃NG",
-      "type": 3,
-      "api": "csp_WexNgys",
-      "jar": "./jar/wex.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
+			"key": "NanGua",
+			"name": "蓝光┃NG",
+			"type": 3,
+			"api": "csp_NanGua",
+			"searchable": 1,
+			"changeable": 1,
+			"ext": "null$$$1"
+		},
     {
       "key": "索尼资源",
       "name": "蓝光┃SN",
