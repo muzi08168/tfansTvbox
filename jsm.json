@@ -461,16 +461,6 @@
 		},
     { "key": "Ikanbot", "name": "蓝光┃IK", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.ikanbot.com$$$proxy"},
     { "key":"csp_YingShi","name":"蓝光┃YS","type":3,"api":"csp_YingShi","ext":"proxy"},
-		{ 
-			"key": "泥巴", 
-			"name": "蓝光┃NB", 
-			"type": 3, 
-			"api": "csp_NiNi", 
-			"searchable": 1, 
-			"filterable": 1, 
-			"changeable": 0, 
-			"ext":"0$$$proxy" 
-		},
 		{
 			"key": "星星",
 			"name": "蓝光┃XX",
@@ -592,15 +582,7 @@
 			}
 	},	
 
-   {
-			"key": "短剧",
-			"name": "🌸短剧",
-			"type": 3,
-			"api": "csp_Duanju",
-			"searchable": 0,
-			"changeable": 1,
-			"ext":"https://www.duanjutv.icu"
-		},
+   
     {"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"ext":"./js/alistjar.json"},
    
    {
