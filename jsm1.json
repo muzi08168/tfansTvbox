@@ -461,14 +461,15 @@
 		},
     { "key": "Ikanbot", "name": "蓝光┃IK", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.ikanbot.com$$$proxy"},
     { "key":"csp_YingShi","name":"蓝光┃YS","type":3,"api":"csp_YingShi","ext":"proxy"},
-		{
-			"key": "星星",
-			"name": "蓝光┃XX",
-			"type": 3,
-			"api": "csp_Star",
-			"searchable": 1,
-			"changeable": 0,
-			"ext":"proxy"
+    { 
+			"key": "泥巴", 
+			"name": "蓝光┃NB", 
+			"type": 3, 
+			"api": "csp_NiNi", 
+			"searchable": 1, 
+			"filterable": 1, 
+			"changeable": 0, 
+			"ext":"0$$$proxy" 
 		},
 		{
 			"key": "haiwaikan",
@@ -513,17 +514,15 @@
 				"经典片"
 			]
 		},
-    { 
-			"key": "泥巴", 
-			"name": "蓝光┃NB", 
-			"type": 3, 
-			"api": "csp_NiNi", 
-			"searchable": 1, 
-			"filterable": 1, 
-			"changeable": 0, 
-			"ext":"0$$$proxy" 
+    {
+			"key": "星星",
+			"name": "蓝光┃XX",
+			"type": 3,
+			"api": "csp_Star",
+			"searchable": 1,
+			"changeable": 0,
+			"ext":"proxy"
 		},
-    
     {
       "key": "sohu",
       "name": "搜搜┃(官)",
