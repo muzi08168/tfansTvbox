@@ -263,13 +263,6 @@
 				"搜索数组": "class=\"entry-media\">&&</div"
 			}
 		},
-    {"key":"drpy_js_MP4US","name":"磁力┃US","type":3,"api":"./lib/drpy2.min.js","ext":"./js/mp4us.js", "quickSearch":1, "changeable":1, "timeout":60},
-		{"key":"4KHDR","name":"磁力┃SK","type":3,"api":"csp_FourKHDR","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/4khdr.txt$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
     {
 			"key": "BT天堂",
 			"name":"磁力┃TT",
@@ -282,6 +275,13 @@
 			"jar": "./lib/XBPQ.jar"
 		},
     {"key":"美剧迷","name":"磁力┃MJ","type":3,"api":"csp_Meijumi", "quickSearch":1, "changeable":1, "filterable":1, "timeout":120,"ext":"./lib/tokenm.json$$$https://www.meijumi.net/$$$proxy$$$1"},
+    {"key":"drpy_js_MP4US","name":"磁力┃US","type":3,"api":"./lib/drpy2.min.js","ext":"./js/mp4us.js", "quickSearch":1, "changeable":1, "timeout":60},
+		{"key":"4KHDR","name":"磁力┃SK","type":3,"api":"csp_FourKHDR","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/4khdr.txt$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     
     	{"key":"QuarkShare","name":"夸克┃FX","type":3,"api":"csp_QuarkShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/quarkshare.txt",
 			"style": {
