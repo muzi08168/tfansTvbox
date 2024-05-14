@@ -197,6 +197,16 @@
 			}
 		},
     {"key":"Wo4k","name":"磁力┃WO","type":3,"api":"csp_Wo4k","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.wo4k.net/$$$proxy$$$1$$$./lib/wogg.json"},
+    {
+			"key": "新6V",
+			"name": "磁力┃LV",
+			"type": 3,
+			"api": "csp_Xb6v",
+			"searchable": 1,
+			"changeable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$https://www.xb6v.com$$$null$$$1"
+		},
     {"key":"Gaoqing","name":"磁力┃GQ","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://gaoqing.la/$$$proxy$$$1"},
     {
 			"key": "Bdys_spider",
