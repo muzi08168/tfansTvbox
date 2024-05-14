@@ -208,6 +208,10 @@
 			"ext": "./lib/tokenm.json$$$https://www.xb6v.com$$$null$$$1"
 		},
     {"key":"Gaoqing","name":"磁力┃GQ","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://gaoqing.la/$$$proxy$$$1"},
+    {"key":"Yinfans","name":"磁力┃FS","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.yinfans.me/$$$proxy$$$1"},
+		{"key":"ddys","name":"磁力┃DD","type":3,"api":"csp_Ddys","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://ddys.pro/$$$proxy$$$1$$$"},
+		{"key":"Xinshijue","name":"磁力┃SJ","type":3,"api":"csp_Xinshijue","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./lib/wogg.json"},
+		
     {
 			"key": "Bdys_spider",
 			"name": "磁力┃BD",
